@@ -79,6 +79,44 @@ namespace Feelword
                     aaa = false;
                 }
             } while (aaa == true);
+            if (num == 1)
+            {
+                NewGame();
+            }
+            if (num == 2)
+            {
+                Continue();
+            }
+            if (num == 3)
+            {
+                Results();
+            }
+            if (num == 4)
+            {
+                Exit();
+            }
         }
+
+        public static void NewGame()
+        {
+            Console.Clear();
+            Console.WriteLine("Тут однажды будет Новая игра");
+        }
+        public static void Continue()
+        {
+            Console.Clear();
+            Console.WriteLine("Тут однажды будет Продолжить");
+        }
+        public static void Results()
+        {
+            Console.Clear();
+            Console.WriteLine("Тут однажды будет Рекорды");
+        }
+        public static void Exit()
+        {
+            Console.Clear();
+            Console.WriteLine("Тут однажды будет Выход");
+        }
+
     }
 }
