@@ -100,7 +100,8 @@ namespace Feelword
         public static void NewGame()
         {
             Console.Clear();
-            Console.WriteLine("Тут однажды будет Новая игра");
+            Console.Write("Введите имя игрока - ");
+            string name = Console.ReadLine();
         }
         public static void Continue()
         {
